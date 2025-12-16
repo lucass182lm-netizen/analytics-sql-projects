@@ -41,6 +41,20 @@ The final dataset provides:
 - SQL (analytical dialect)
 - Data warehouse-oriented modeling
 
+
+### Business Context
+This project was designed as a shared analytical foundation for multiple operational teams, including Customer Experience (CX), Customer Success (CS) and Backoffice operations.
+
+Prior to this consolidation, each team relied on separate data views, leading to duplicated logic, inconsistent metrics and operational inefficiencies.  
+The project established a unified, monthly analytical dataset that serves as a single source of truth across teams.
+
+This initiative marked an important milestone by enabling:
+- Consistent reporting across operational areas
+- Reduced manual data reconciliation
+- Improved visibility of billing and payment statuses
+- Faster decision-making for customer-facing teams
+
+
 ---
 
 ---
@@ -69,3 +83,16 @@ Este projeto demonstra a consolidação de dados de CRM, faturamento e pagamento
 ### Observações de Privacidade
 Todos os dados sensíveis foram removidos ou anonimizados.  
 Este repositório não contém informações reais de clientes ou empresas.
+
+### Contexto de Negócio
+Este projeto foi desenvolvido como uma base analítica compartilhada para múltiplas áreas operacionais, incluindo Customer Experience (CX), Customer Success (CS) e Backoffice.
+
+Antes da consolidação, cada área utilizava visões distintas dos dados, o que gerava inconsistências, retrabalho e dificuldades na tomada de decisão.  
+A solução criou uma fonte única da verdade, com dados consolidados mensalmente, utilizada de forma transversal pelas equipes.
+
+Este projeto representou um marco ao:
+- Padronizar métricas entre áreas
+- Reduzir reconciliações manuais de dados
+- Melhorar a visibilidade de faturamento e pagamentos
+- Apoiar decisões mais rápidas em times orientados ao cliente
+
