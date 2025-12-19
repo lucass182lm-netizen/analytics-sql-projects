@@ -1,5 +1,5 @@
 /*
-Project: Monthly Data Consolidation
+Project: Unified Operational Analytics
 Description: SQL project demonstrating consolidation of CRM, billing and payment data.
 Granularity: Consumer Unit + Month
 
