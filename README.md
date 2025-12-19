@@ -119,4 +119,48 @@ Ao centralizar regras de negócio e definições na camada de dados, a solução
 
 Dessa forma, CX, CS e Backoffice utilizam a mesma base analítica, independentemente da ferramenta de visualização.
 
+---------------------------------------
+
+## Project: Monthly Churn Analytics
+
+This project creates a monthly churn dataset based on CRM lifecycle dates.
+
+Highlights:
+- Date spine for complete monthly coverage
+- Monthly churn rate and churn rate YTD
+- Deduplication at account level using window functions
+- Ability to slice churn by cancellation dimensions (type, reason, distributor, etc.)
+
+### Executive and BI Consumption
+This churn dataset is designed to be consumed by multiple BI and reporting tools, serving both operational and executive-level analytics.
+
+It is primarily used to monitor churn-related OKRs and performance indicators, supporting management and leadership teams with a consistent and reliable view of customer retention.
+
+By centralizing churn definitions and calculations at the data layer, the project ensures:
+- Consistent churn metrics across dashboards
+- Alignment between operational teams and leadership
+- Reliable inputs for OKR tracking and executive reporting
+- Reduced risk of metric discrepancies across BI tools
+
+
+## Projeto: Churn Mensal
+
+Este projeto cria uma base mensal de churn com base nas datas de ciclo de vida no CRM.
+
+Destaques:
+- Date spine para cobertura mês a mês
+- Churn mensal e churn acumulado no ano (YTD)
+- Deduplicação por conta com window functions
+- Segmentação por dimensões de cancelamento (tipo, motivo, distribuidora etc.)
+
+### Consumo Executivo e BI
+Esta base de churn foi desenvolvida para ser consumida por múltiplas ferramentas de BI e relatórios, atendendo tanto análises operacionais quanto executivas.
+
+O dataset é utilizado principalmente para o acompanhamento de OKRs e indicadores estratégicos de churn, oferecendo à gerência e à diretoria uma visão consistente e confiável sobre retenção de clientes.
+
+Ao centralizar as definições e cálculos de churn na camada de dados, o projeto garante:
+- Métricas de churn consistentes entre dashboards
+- Alinhamento entre times operacionais e liderança
+- Base confiável para acompanhamento de OKRs
+- Redução de divergências de métricas entre ferramentas de BI
 
