@@ -2,7 +2,7 @@
 
 This repository contains SQL projects focused on analytical data modeling, consolidation and business logic implementation.
 
-## Project: Monthly Data Consolidation
+## Project: Unified Operational Analytics
 
 ### Overview
 This project demonstrates the consolidation of CRM, billing and payment data into a single analytical dataset, designed for reporting and business analysis.
