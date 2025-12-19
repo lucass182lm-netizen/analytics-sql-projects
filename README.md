@@ -54,6 +54,18 @@ This initiative marked an important milestone by enabling:
 - Improved visibility of billing and payment statuses
 - Faster decision-making for customer-facing teams
 
+### Analytics Consumption
+The unified dataset produced by this project is designed to be consumed by multiple BI and reporting tools.
+
+By centralizing business logic and definitions at the data layer, the project enables:
+- Consistent metrics across dashboards
+- Reuse of the same dataset by different teams
+- Reduced duplication of logic in BI tools
+- Faster development of analytical reports
+
+This approach ensures that CX, CS and Backoffice teams operate on a shared analytical foundation, regardless of the visualization layer.
+
+
 
 ---
 
@@ -95,4 +107,16 @@ Este projeto representou um marco ao:
 - Reduzir reconciliações manuais de dados
 - Melhorar a visibilidade de faturamento e pagamentos
 - Apoiar decisões mais rápidas em times orientados ao cliente
+
+### Consumo Analítico (BI)
+A base analítica gerada por este projeto foi desenvolvida para ser consumida por múltiplas ferramentas de BI e relatórios.
+
+Ao centralizar regras de negócio e definições na camada de dados, a solução permite:
+- Métricas consistentes entre dashboards
+- Reutilização da mesma base por diferentes áreas
+- Redução de lógica duplicada em ferramentas de BI
+- Agilidade no desenvolvimento de análises
+
+Dessa forma, CX, CS e Backoffice utilizam a mesma base analítica, independentemente da ferramenta de visualização.
+
 
